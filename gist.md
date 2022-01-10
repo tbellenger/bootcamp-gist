@@ -4,7 +4,9 @@ This tutorial breaks down a regex expression that matches a hex code. It shows t
 
 ## Summary
 
-In this gist I will be looking at a hex code regex and how it works. The regex expression to match a hex code  is `/^#?([a-f0-9]{6}|[a-f0-9]{3})$/`. Breaking down this expression into parts gives `^` : matches the start of the string, `#` : matches the '#' character, `?(...|...)` : is used as an OR operator, `[a-f0-9]` : defines any valid hex character 'abcdef0123456789' and `{n}` defines the occurances of the character. Some examples of hex codes would be #efefef or #000. 
+In this gist I will be looking at a hex code regex and how it works. The regex expression to match a hex code  is `/^#?([a-f0-9]{6}|[a-f0-9]{3})$/`. Breaking down this expression into parts gives `^` : matches the start of the string, `#` : matches the '#' character, `?(...|...)` : is used as an OR operator, `[a-f0-9]` : defines any valid hex character 'abcdef01234567890', `{n}` defines the occurances of the character and `$` : matches the end of the string. In plain english the regex above says:
+Match a string that starts with a '#' and is followed by either 6 or 3 characters which can be any character from 'abcdef01234567890' and then ends the string. 
+Some examples of hex codes would be #efefef or #000. 
 
 ## Table of Contents
 
