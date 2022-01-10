@@ -1,10 +1,10 @@
-# Title (replace with your title)
+# Regex Tutorial on Hex code
 
-Introductory paragraph (replace this with your text)
+This tutorial breaks down a regex expression that matches a hex code. It shows the different individual parts of the expression, what they do and how, when combined they are able to match a hex code. 
 
 ## Summary
 
-Briefly summarize the regex you will be describing and what you will explain. Include a code snippet of the regex. Replace this text with your summary.
+In this gist I will be looking at a hex code regex and how it works. The regex expression to match a hex code  is `/^#?([a-f0-9]{6}|[a-f0-9]{3})$/`
 
 ## Table of Contents
 
