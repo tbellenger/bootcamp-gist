@@ -12,7 +12,6 @@ In this gist I will be looking at a hex code regex and how it works. The regex e
 - [Quantifiers](#quantifiers)
 - [OR Operator](#or-operator)
 - [Character Classes](#character-classes)
-- [Look-ahead and Look-behind](#look-ahead-and-look-behind)
 
 ## Regex Components
 
