@@ -23,10 +23,13 @@ In this gist I will be looking at a hex code regex and how it works. The regex e
 ## Regex Components
 
 ### Anchors
+Anchors are used to match positions before, after or between characters. In the above example of a regex expression to match a hex code anchors are used at the start of the expression `^` to match the start of the string and `$` at the end of the expression which matches to the end of the string.
 
 ### Quantifiers
+Quantifiers specify how many matches are required in the regular expression. In the above exmaple of a regex expression to matcha a hex code, quantifiers are used to limit the hex code to either 6 or 3 characters using `{6}` following the first character group and `{3}` following the second character group.
 
 ### OR Operator
+OR Operator specifies a choice between different options in the regular expression. In the above example of a regex express to match a hex code, OR operator is used between the character groups and their quantifiers. The `|` that separates the character groups and quantifiers `[a-f0-9]{6}|[a-f0-9]{3}` means that either of these character group and quantifiers may be matched. 
 
 ### Character Classes
 
@@ -46,4 +49,4 @@ In this gist I will be looking at a hex code regex and how it works. The regex e
 
 ## Author
 
-A short section about the author with a link to the author's GitHub profile (replace with your information and a link to your profile)
+Tom Bellenger is a Berkely Coding Bootcamp student. His Github can be found at https://github.com/tbellenger.
